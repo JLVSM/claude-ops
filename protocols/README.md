@@ -20,8 +20,9 @@ Each protocol = one failure mode I commit, codified as algorithmic rule (Rule #0
 | [layer-by-layer.md](./layer-by-layer.md) | ✅ ACTIVE | Building user-facing surface | medium |
 | [functional-first.md](./functional-first.md) | ✅ ACTIVE | Building UX before backend works | medium |
 | [realistic-ambitious.md](./realistic-ambitious.md) | ✅ ACTIVE | Drifting between cautious and YOLO | low |
+| [parametric-creation.md](./parametric-creation.md) | ✅ ACTIVE | Creating web/image/video/content | medium |
 
-**Total: 16 protocols ACTIVE** (15 failure-mode + 1 boot).
+**Total: 17 protocols ACTIVE** (16 failure-mode + 1 boot).
 
 ## Quality bar (Rule #0 format)
 

@@ -1,14 +1,14 @@
 # State — claude-ops
 
-**Last updated:** 2026-06-10 by Claude session (Juan) — Mag7 list CLOSED; full-capacity audit passed
-**Repo status:** OPERATIONAL AT FULL CAPACITY. Rule #0 v2 + prime boot + 16 protocols. References: 14 devs canonical + 1 PARTIAL (Carmack), 18 companies canonical, 5 primary-sources canonical + 1 PARTIAL. Playbook: 16 canonical patterns + no-fabrication cases. Zero open work items; only optional deepenings remain.
+**Last updated:** 2026-06-29 by Claude session (Juan) — added parametric-creation protocol (creative-work discipline)
+**Repo status:** OPERATIONAL AT FULL CAPACITY. Rule #0 v2 + prime boot + 17 protocols. References: 14 devs canonical + 1 PARTIAL (Carmack), 18 companies canonical, 5 primary-sources canonical + 1 PARTIAL. Playbook: 16 canonical patterns + no-fabrication cases. Zero open work items; only optional deepenings remain.
 
 ## 🟢 Complete (in main)
 
 - `README.md`, `CLAUDE.md`
 - `docs/foundational-brief.md`, `docs/decisions.md` (3 ADRs), `docs/glossary.md`, `docs/architecture.md`, `docs/state.md`
-- `protocols/README.md` (index 16/16 ACTIVE: 15 failure-mode + 1 boot)
-- **16 protocols ACTIVE** (all full content):
+- `protocols/README.md` (index 17/17 ACTIVE: 16 failure-mode + 1 boot)
+- **17 protocols ACTIVE** (all full content):
   - `no-fabrication.md` (Rule #0 — **v2** 2026-06-10: stakes×cost matrix, compressed always-load core, cases moved to `playbooks/no-fabrication-cases.md`)
   - `prime.md` (boot protocol — operator command `prime`: loads Rule #0, operator context, open threads)
   - `error-loop-detection.md`, `memory-vs-reality.md`, `survey-before-building.md`
@@ -16,6 +16,7 @@
   - `pushback-protocol.md`, `compaction-ritual.md`, `mode-separation.md`
   - `chunk-size-protocol.md`, `grand-scheme-first.md`
   - `triangulate-references.md`, `layer-by-layer.md`, `functional-first.md`, `realistic-ambitious.md`
+  - `parametric-creation.md` (2026-06: crear por vector/parámetro/estructura, no ruido random; norte = resumible/escalable/cuantificable. Trigger: crear web/imagen/vídeo/contenido)
 
 - `playbooks/pro-dev-references.md` — **16 canonical** (10 devs/orgs + 6 operator-specified Mag7: Microsoft, Apple, NVIDIA, Meta, Alphabet, AWS)
 - `playbooks/no-fabrication-cases.md` — Rule #0 v2 case studies (extracted from v1)
@@ -57,6 +58,7 @@ Each session aims to deepen existing canonical entries (quote-anchored fetches) 
 - 2026-06-10 (11) — PR #1 conflict resolved + merged (kept both 2026-05-27 sessions' facts); indexes + format conventions synced to v2 reality
 - 2026-06-10 (12) — **TODO list cleared**: 2 primary-sources entries (foundational-brief + RSP with verified quote) · Rauch + OpenAI promoted to Canonical via gh API + cookbook web fetch · Carmack mirror verified + flagged · 6 new playbook entries · 4 existing playbook entries quote-anchored. Remaining: operator names list + Carmack true-primary venue
 - 2026-06-10 (13) — **First operator Mag7 name: Microsoft.** Both supplied sources verified (Dev Center via WebFetch; YouTube channel consent-walled to WebFetch → verified via yt-dlp: 684k subs, agent-centric recent titles). Reference + playbook entry (pattern: pre-configured sandbox onboarding). Remaining names still pending
+- 2026-06-29 (15) — **New protocol `parametric-creation.md`** (operator directive): crear web/imagen/vídeo/contenido por vector·parámetro·estructura·arquitectura, NO ruido/grano/random de IA. Norte = resumible·escalable·cuantificable. Tier 2 trigger added; índice 16→17. Ejemplo ✅ = MercoTax design system.
 - 2026-06-10 (14) — **Mag7 batch: Apple, NVIDIA, Meta, Alphabet, AWS.** 24 operator-supplied URLs verified in 5 WebFetch waves + gh API + Crossref. 5 company entries + 5 playbook patterns (Apple = design governance via artifacts, NVIDIA = APOD loop quote-anchored, Meta = shift errors to compile-time quote-anchored, Alphabet = pillar-walk reviews with AWS cross-triangulation, AWS = reference-architecture-first). Tiering enforced: codekarle/geeksforgeeks/greenware/Wikipedia/DataCamp flagged tier-B/tertiary inside entries, NOT canonical; Coimbra ACM paper resolved via Crossref (external academic study, ~2014, flagged as such); flux noted ARCHIVED. Mag7 6/7 — Tesla + xAI never supplied
 
 ## 🔄 Pre-flight (every session using this repo)
