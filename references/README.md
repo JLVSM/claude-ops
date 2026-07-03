@@ -12,6 +12,7 @@
 | [developers-canonical.md](./developers-canonical.md) | Individual developers + verified online presence | Seed list of 15 candidates, all TODO |
 | [companies-canonical.md](./companies-canonical.md) | Engineering orgs whose blogs/papers/repos can be cited | Seed list of 12 candidates, all TODO |
 | [primary-sources.md](./primary-sources.md) | Specific documents (RFCs, papers, books) referenced across protocols | 3 known citations, all TODO |
+| [thenomba-stack-canonical.md](./thenomba-stack-canonical.md) | The TheNomba default stack (Vite/Next + Supabase + Netlify) + the one exception | 🟢 verified 2026-07-03 |
 
 ## Why these are NOT empty as a policy (the Rule #0 reframe)
 

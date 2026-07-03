@@ -21,8 +21,9 @@ Each protocol = one failure mode I commit, codified as algorithmic rule (Rule #0
 | [functional-first.md](./functional-first.md) | ✅ ACTIVE | Building UX before backend works | medium |
 | [realistic-ambitious.md](./realistic-ambitious.md) | ✅ ACTIVE | Drifting between cautious and YOLO | low |
 | [parametric-creation.md](./parametric-creation.md) | ✅ ACTIVE | Creating web/image/video/content | medium |
+| [build-fullstack-app.md](./build-fullstack-app.md) | ✅ ACTIVE | About to build an app/web on the TheNomba stack | high |
 
-**Total: 17 protocols ACTIVE** (16 failure-mode + 1 boot).
+**Total: 18 protocols ACTIVE** (16 failure-mode + 1 boot + 1 build-defaults).
 
 ## Quality bar (Rule #0 format)
 
