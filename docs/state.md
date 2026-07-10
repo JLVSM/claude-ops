@@ -1,7 +1,7 @@
 # State — claude-ops
 
-**Last updated:** 2026-06-29 by Claude session (Juan) — added parametric-creation protocol (creative-work discipline)
-**Repo status:** OPERATIONAL AT FULL CAPACITY. Rule #0 v2 + prime boot + 17 protocols. References: 14 devs canonical + 1 PARTIAL (Carmack), 18 companies canonical, 5 primary-sources canonical + 1 PARTIAL. Playbook: 16 canonical patterns + no-fabrication cases. Zero open work items; only optional deepenings remain.
+**Last updated:** 2026-07-10 by Claude session (Juan) — added `_hot.md` hot cache + `retrieval-protocol` (Karpathy LLM-Wiki tiered read, ≤5 files/query). Earlier this session: `build-fullstack-app` protocol + `references/thenomba-stack-canonical.md`.
+**Repo status:** OPERATIONAL AT FULL CAPACITY. Rule #0 v2 + prime boot + **19 protocols** (16 failure-mode + prime + build-fullstack-app + retrieval-protocol) + **`_hot.md` hot cache** (read first, ≤~500 tok). References: 14 devs canonical + 1 PARTIAL (Carmack), 18 companies canonical, 5 primary-sources canonical + 1 PARTIAL, + thenomba-stack-canonical. Playbook: 16 canonical patterns + no-fabrication cases. Zero open build work; only optional reference-deepenings remain.
 
 ## 🟢 Complete (in main)
 

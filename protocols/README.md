@@ -22,8 +22,9 @@ Each protocol = one failure mode I commit, codified as algorithmic rule (Rule #0
 | [realistic-ambitious.md](./realistic-ambitious.md) | ✅ ACTIVE | Drifting between cautious and YOLO | low |
 | [parametric-creation.md](./parametric-creation.md) | ✅ ACTIVE | Creating web/image/video/content | medium |
 | [build-fullstack-app.md](./build-fullstack-app.md) | ✅ ACTIVE | About to build an app/web on the TheNomba stack | high |
+| [retrieval-protocol.md](./retrieval-protocol.md) | ✅ ACTIVE | Session start / pulling context from this repo | high (boot-adjacent) |
 
-**Total: 18 protocols ACTIVE** (16 failure-mode + 1 boot + 1 build-defaults).
+**Total: 19 protocols ACTIVE** (16 failure-mode + 1 boot + 1 build-defaults + 1 retrieval).
 
 ## Quality bar (Rule #0 format)
 
