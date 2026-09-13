@@ -20,6 +20,10 @@ CLAUDE.md. Protocols + anti-patterns + playbooks + verified references. Reader =
 
 ## Active now
 - **19 protocols ACTIVE** (17 failure-mode + `prime` boot + `retrieval-protocol` + `build-fullstack-app` stack-defaults).
+- **Creative default** for any web/landing/mini-app/image/video → `protocols/parametric-creation.md`
+  **Phase 0 BEFORE any prompt or component:** ask for his references → if none, bring 3-5 from the
+  shelf (refero, 60fps, collectui) and SHOW them → survey our own systems → get the anti-reference.
+  Every token traces to a reference. Critique loop via `/element-inspector`. **No Figma round-trip.**
 - **Stack default** for any TheNomba app/web → `references/thenomba-stack-canonical.md` (Vite/React or Next + Tailwind + Supabase + Netlify; jarvis Studio = the video-only exception).
 - **Zero open build work.** Only reference-deepenings remain (not blockers):
   - Carmack PARTIAL — Keen Technologies venue still the unlock.
