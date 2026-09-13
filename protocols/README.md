@@ -20,7 +20,7 @@ Each protocol = one failure mode I commit, codified as algorithmic rule (Rule #0
 | [layer-by-layer.md](./layer-by-layer.md) | ✅ ACTIVE | Building user-facing surface | medium |
 | [functional-first.md](./functional-first.md) | ✅ ACTIVE | Building UX before backend works | medium |
 | [realistic-ambitious.md](./realistic-ambitious.md) | ✅ ACTIVE | Drifting between cautious and YOLO | low |
-| [parametric-creation.md](./parametric-creation.md) | ✅ ACTIVE | Creating web/image/video/content | medium |
+| [parametric-creation.md](./parametric-creation.md) | ✅ ACTIVE (v2) | Creating web/landing/mini-app/image/video/content | medium |
 | [build-fullstack-app.md](./build-fullstack-app.md) | ✅ ACTIVE | About to build an app/web on the TheNomba stack | high |
 | [retrieval-protocol.md](./retrieval-protocol.md) | ✅ ACTIVE | Session start / pulling context from this repo | high (boot-adjacent) |
 

@@ -1,14 +1,14 @@
 # State — claude-ops
 
-**Last updated:** 2026-07-10 by Claude session (Juan) — added `_hot.md` hot cache + `retrieval-protocol` (Karpathy LLM-Wiki tiered read, ≤5 files/query). Earlier this session: `build-fullstack-app` protocol + `references/thenomba-stack-canonical.md`.
+**Last updated:** 2026-09-13 by Claude session (Juan) — `parametric-creation` v2: **Phase 0 (references before prompts)** + the critique loop + Figma round-trip declined with reason. Consistency pass: this file said 17 protocols in two places while the index said 19 (build-fullstack-app and retrieval-protocol were shipped but never listed here). Fixed.
 **Repo status:** OPERATIONAL AT FULL CAPACITY. Rule #0 v2 + prime boot + **19 protocols** (16 failure-mode + prime + build-fullstack-app + retrieval-protocol) + **`_hot.md` hot cache** (read first, ≤~500 tok). References: 14 devs canonical + 1 PARTIAL (Carmack), 18 companies canonical, 5 primary-sources canonical + 1 PARTIAL, + thenomba-stack-canonical. Playbook: 16 canonical patterns + no-fabrication cases. Zero open build work; only optional reference-deepenings remain.
 
 ## 🟢 Complete (in main)
 
 - `README.md`, `CLAUDE.md`
 - `docs/foundational-brief.md`, `docs/decisions.md` (3 ADRs), `docs/glossary.md`, `docs/architecture.md`, `docs/state.md`
-- `protocols/README.md` (index 17/17 ACTIVE: 16 failure-mode + 1 boot)
-- **17 protocols ACTIVE** (all full content):
+- `protocols/README.md` (index 19/19 ACTIVE: 16 failure-mode + 1 boot + 1 build-defaults + 1 retrieval)
+- **19 protocols ACTIVE** (all full content):
   - `no-fabrication.md` (Rule #0 — **v2** 2026-06-10: stakes×cost matrix, compressed always-load core, cases moved to `playbooks/no-fabrication-cases.md`)
   - `prime.md` (boot protocol — operator command `prime`: loads Rule #0, operator context, open threads)
   - `error-loop-detection.md`, `memory-vs-reality.md`, `survey-before-building.md`
@@ -16,7 +16,9 @@
   - `pushback-protocol.md`, `compaction-ritual.md`, `mode-separation.md`
   - `chunk-size-protocol.md`, `grand-scheme-first.md`
   - `triangulate-references.md`, `layer-by-layer.md`, `functional-first.md`, `realistic-ambitious.md`
-  - `parametric-creation.md` (2026-06: crear por vector/parámetro/estructura, no ruido random; norte = resumible/escalable/cuantificable. Trigger: crear web/imagen/vídeo/contenido)
+  - `parametric-creation.md` (**v2** 2026-09-13: crear por vector/parámetro/estructura, no ruido random; norte = resumible/escalable/cuantificable. **Phase 0 = referencias ANTES del prompt** — cuestionario de arranque, la shelf curada, la anti-referencia, y cada parámetro trazado a una referencia. Trigger: crear web/landing/mini-app/imagen/vídeo/contenido)
+  - `build-fullstack-app.md` (2026-07-03: defaults WHEN→THEN por capa sobre el stack canónico + ship protocol right-sized. Destilado de la triage de ByteByteGo)
+  - `retrieval-protocol.md` (2026-07-10: escalera de lectura con presupuesto de tokens — `_hot.md` primero, ≤5 ficheros por consulta. Patrón LLM-Wiki de Karpathy)
 
 - `playbooks/pro-dev-references.md` — **16 canonical** (10 devs/orgs + 6 operator-specified Mag7: Microsoft, Apple, NVIDIA, Meta, Alphabet, AWS)
 - `playbooks/no-fabrication-cases.md` — Rule #0 v2 case studies (extracted from v1)
@@ -42,7 +44,7 @@ Per Rule #0 active framing: these are work-items, not "Rule #0 forbids it" excus
 
 Each session aims to deepen existing canonical entries (quote-anchored fetches) OR convert PARTIAL → Canonical.
 
-## ✅ Recently shipped (last 24h, full chronology)
+## ✅ Shipped (full chronology)
 
 - 2026-05-26 (1) — Bootstrap commit: README + CLAUDE.md + foundational-brief + docs + Rule #0 first version
 - 2026-05-26 (2) — 14 protocol stubs + 1 playbook stub + 3 reference stubs
@@ -83,3 +85,4 @@ Each session aims to deepen existing canonical entries (quote-anchored fetches) 
 - **2026-05-27 (9)** — Housekeeping: bumped layer-by-layer stub count to reality (15). Promoted Vitalik / Julia / Simon / Mitchell from playbook-TODO to playbook-Canonical with verified-source-backed WHEN/THEN patterns. Per operator: "como aceite a un coche" — entries kept lean, one actionable pattern each. (Ran parallel to refs-batch; merged 2026-06-10 with conflict resolution keeping both sessions' facts.)
 - **2026-06-10 (10-11)** — Rule #0 v2 shipped (PR #4): stakes×cost matrix, compressed core, case studies extracted to `playbooks/no-fabrication-cases.md`; `prime.md` boot protocol added (CLAUDE.md Tier 1 item 0). Then PR #1 unblocked: state.md conflict resolved keeping both parallel 2026-05-27 sessions, playbook TODO table synced to post-refs-batch reality (6 candidates have verified references — next step is derive-pattern, not re-fetch). Consistency pass: protocol/playbook indexes + CLAUDE.md format conventions updated to match v2 structure.
 - **2026-06-10 (12)** — TODO-list completion run. Verification wins: RSP announcement fetched (direct quote secured) · Rauch identity verified via `gh api users/rauchg` (rauchg.com still 429 ×3 — promoted with scoped caveat) · OpenAI cookbook verified live at developers.openai.com/cookbook + org/repo via gh API (root 403 persists — promoted with scoped caveat) · Carmack .plan archive verified as community MIRROR of floodyberry.com (stays PARTIAL; mirror flagged, never cited as primary). Playbook: 6 new entries derived from verified references (Linus = canonical-venue discipline, Wozniak = route-to-substance, Anthropic = capability-gated safeguards, OpenAI = executable docs, SRE = ops-as-software, Carmack = daily .plan → state.md session log) + 4 existing entries quote-anchored (Vitalik fv.html, Julia wizardzines, Simon TIL count+self-description, Mitchell building-block-economy). primary-sources at 4/4 canonical. Only operator-blocked item remains: Mag7/Tesla/xAI names.
+- **2026-09-13 (16)** — **`parametric-creation` v2 + consistency pass.** Operator drop: a 3-step thread by design engineer Breeje Anadkat (X, 12-sep-2026) on making better-looking apps with AI. Distilled instead of adopted wholesale: **step 1 (*"references, not prompts"*) was the real gap** — it is now **Phase 0**, an intake questionnaire (his references → ours → the curated shelf → the anti-reference → the constraint) that must run before any prompt or component, with every parameter traced back to a named reference. **Step 2** (get specific about what's wrong) we already solve better via `/element-inspector` (element → `file:line`), so it is written as the cheap-critique loop, not as a new idea. **Step 3 (round-trip to Figma) declined with the reason on record:** on our stack the code IS the design, so a post-build Figma file is a second source of truth that goes stale; taste gets applied on the rendered page (`premium-web-craft`, `/design-review`). Figma stays valid BEFORE the build, which is Phase 0. No new protocol — the gap belonged inside an existing one (rung 2: reuse before adding). **Consistency pass on this file:** it claimed 17 ACTIVE protocols in two places while `protocols/README.md` said 19; `build-fullstack-app.md` (2026-07-03) and `retrieval-protocol.md` (2026-07-10) had shipped without ever being listed in 🟢 Complete. Both added, counts reconciled, the "last 24h" heading dropped (it spanned four months).

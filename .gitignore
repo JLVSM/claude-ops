@@ -1,0 +1,5 @@
+# Runtime state written by tooling into the repo root. Never commit:
+# .gstack/ holds live daemon tokens (browse.json, terminal-internal-token)
+# and this repo is public.
+.gstack/
+.DS_Store

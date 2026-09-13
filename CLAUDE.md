@@ -32,7 +32,7 @@ When the trigger fires, load the protocol file.
 | Building UX before backend works | `protocols/functional-first.md` |
 | Drifting between "too cautious" and "sky's the limit" | `protocols/realistic-ambitious.md` |
 | About to generate >200 lines in one shot | `protocols/chunk-size-protocol.md` |
-| About to create web/image/video/content (any creative surface) | `protocols/parametric-creation.md` |
+| About to create web/landing/mini-app/image/video/content (any creative surface) | `protocols/parametric-creation.md` — **Phase 0 first: references before prompts** |
 
 ## Tier 3 — Case studies (deep dive when needed)
 
