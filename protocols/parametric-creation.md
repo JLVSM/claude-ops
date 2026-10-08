@@ -106,6 +106,7 @@ WHEN about to create web / image / video / content:
 By surface:
 - **Web** → design tokens + tested component library (e.g. the MercoTax/Folio system). Never one-off CSS per screen.
 - **Image / video** → explicit, reusable parameters: structured prompts, fixed seeds, Elements/character anchors, per-setting reference images, templates. Not random rolls hoping for a hit.
+- **Motion / explainer video** → start from the baseline kit in the operator's private toolkit (`~/Claudito/Security/referencias/kit-motion-explainer/`: a studio prompt + a deterministic `window.seek(t)` renderer, tested 2026-10-08). It runs autonomous only up to the animatic; the operator approves before final production. For footage, brand corpus, voice/music and client delivery use the Studio (`studio_*`) instead — the two are options side by side, not one replacing the other. Comparison table in that kit's README.
 - **Content** → architecture first (brief, contract, template); pieces derive from the system, not the reverse.
 
 ## Acceptance test (am I shipping a system or noise?)
