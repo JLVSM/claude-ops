@@ -33,6 +33,8 @@ When the trigger fires, load the protocol file.
 | Drifting between "too cautious" and "sky's the limit" | `protocols/realistic-ambitious.md` |
 | About to generate >200 lines in one shot | `protocols/chunk-size-protocol.md` |
 | About to create web/landing/mini-app/image/video/content (any creative surface) | `protocols/parametric-creation.md` — **Phase 0 first: references before prompts** |
+| About to run a long task (several files, several sessions, autonomous) | `playbooks/long-task-harness.md` — contract, `checks.md`, `progress.md`, evidence before done |
+| Motion graphics, video, cinema/framing, Studio (`studio_*`) | the operator's `/produccion-creativa` skill (router to the kits), after `parametric-creation` |
 
 ## Tier 3 — Case studies (deep dive when needed)
 
