@@ -39,6 +39,19 @@ A claim usually gets **stronger** the further it is from its origin. Real case, 
 ## Tooling
 `python3 ~/Claudito/Security/scripts/trazar_fuentes.py <tweet-url>`: follows the quote chain, flags division-3 signals and incentives, checks repos / arXiv / links by machine, and leaves a checklist of what a person still has to trace. It checks only what is checkable by machine; reading the origin is still my job.
 
+## Proportional rigor (the operator's rule, 2026-10-13)
+Rigorous, **not fanatical**. Most of what passes through will not carry its origin, and that is fine.
+| Stakes | Do |
+|---|---|
+| Curiosity, bookmark | One minute. Anything unchecked is tagged **U**. |
+| Goes into the toolkit with a verdict | Trace what the verdict rests on (repo + licence, price, docs). ≤ 5 min per claim. |
+| Money, law, client or safety decision | Origin + an independent second source + try it. |
+
+**No origin found is itself information.** Record "no origin found" (**U**), drop the name and the number as facts, and **keep what stands on its own** (a pattern, a method). Do not discard it and do not present it as verified. Time-box: if tracing costs more than the decision is worth, stop and leave it **U**.
+
+## Beyond tracing: ways out of the cave
+Plato's cave (*Republic* VII, 514a-520a): prisoners who only ever see shadows take them for reality, and reward whoever best predicts the next shadow. Our shadows are second- and third-hand content; the "puppeteers" are whoever profits from our attention. Besides climbing the ladder: audit incentives; **run it and measure**; triangulate with *independent* origins and look for what would kill the claim; read the boring files (LICENSE, DISCLAIMER, changelog, pricing fine print, open issues); follow producers (releases, official changelogs, arXiv) and use viral accounts only as sonar; write what I expect to find and how I would be wrong *before* reading; quarantine hype 24-48 h; archive evidence with the date read; and keep a per-account hit-rate. Full explanation in the operator's toolkit: `Security/referencias/kit-fuentes-primarias/README.md`.
+
 ## What this does NOT mean
 - Not "reject everything second-hand": a good division-2 source is a fast way to find the origin.
 - Not "verify without end": trace what a decision depends on; time-box the rest and mark it **U**.
